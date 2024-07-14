@@ -1,0 +1,1 @@
+sap.ui.define([],function(){"use strict";return{getPercentage:function(e){let t=this.getOwnerComponent().getModel("oBankDetails").getProperty("/empsalary"),r=e/t*100;return r},getState:function(e){let t=this.getOwnerComponent().getModel("oBankDetails").getProperty("/empsalary"),r=e/t*100;if(r>60)return"Error";else if(r>40)return"Critical";else return"Good"}}});
