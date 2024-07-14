@@ -1,4 +1,4 @@
-_schema-version: "3.3"
+_schema-version: "3.4"
 ID: com-sap-mybankdetails
 description: Display Employee Bank Details
 version: 0.0.1
